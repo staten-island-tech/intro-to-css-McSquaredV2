@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color:peachpuff;
   color: blue;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 45px;
@@ -11,15 +11,17 @@ body {
 .excercises {
   width: 75%;
   margin: auto;
-  border: red solid;
+  border: black solid;
   border-width: 5px;
   padding-left: 50px;
-  background-color: black;
+  background-color: peachpuff;
+  text-align: justify;
 }
 
 .container {
   width: 80%;
   margin: auto;
+  text-align: center;
 }
 
 .titleblock {
@@ -29,6 +31,7 @@ body {
   border-style: solid;
   border-width: 5px;*/
   padding-left: 50px;
+  text-align: center;
 }
 
 .titleblock h1 {
