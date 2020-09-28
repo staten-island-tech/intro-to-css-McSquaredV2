@@ -1,0 +1,204 @@
+body {
+  background-color: peachpuff;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  /*same as above just shorter*/
+  font: normal 40px Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6em;
+  word-spacing: 0.3em;
+
+  padding-bottom: 10px;
+}
+
+.excercises {
+  width: 62.3%;
+  margin: auto;
+  border: grey solid;
+  border-width: 10px;
+  padding-left: 100px;
+  padding-right: 0px;
+  background-color: black;
+  text-align: justify;
+}
+
+.button:hover {
+  background-color: red;
+  color: blue;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.bio h2 {
+  padding-top: 50px;
+}
+
+.categories {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+  border: grey solid;
+  border-width: 2px;
+  border-radius: 20px;
+  padding-left: 50px;
+  color: black;
+}
+
+.maxh2 {
+  color: red;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.my-form {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: #09ff00;
+  text-align: justify;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input,
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.parablock {
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+  color: red;
+}
+
+.titleblock {
+  /*this is when i have a white background for the page so this is not necessary right now 
+   background-color: lightgray;*/
+  /*border: black solid; USE IF THE BORDER LOOKS GOOD
+    border-style: solid;
+    border-width: 5px;*/
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: auto;
+  line-height: normal;
+}
+
+.titleblock h1 {
+  font-style: italic;
+  text-decoration: underline;
+  word-spacing: 0.3em;
+}
+
+.block {
+  float: left;
+  width: 30%;
+  font-size: 11px;
+  margin: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1px;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+  left: 233px;
+}
+
+#main-block {
+  float: left;
+  width: 40%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+  left: 100px;
+  background-color: darkgrey;
+  border: black solid;
+  border-width: 3px;
+}
+
+#sidebar {
+  float: left;
+  width: 40%;
+  background-color: darkgray;
+  color: black;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+  left: 100px;
+  border: black solid;
+  border-width: 3px;
+}
+
+.p-box {
+  width: 60%;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  font-size: 10px;
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=355&q=80);
+  background-position: center top;
+}
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 58px;
+  right: 150px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: #09ff00;
+}
+
+.my-list li:nth-child(6) {
+  background: yellow;
+}
+
+.my-list li:nth-child(even) {
+  background: grey;
+}
